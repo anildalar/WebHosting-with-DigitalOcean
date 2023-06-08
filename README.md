@@ -22,6 +22,7 @@ Droplet can be configured
 8. Now install LAMP stack 
 
 9. Digital ocean has very detail documentation on this
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-22-04
 
  apt: command not found
 It mean that this is not a ubuntu machine
@@ -123,3 +124,11 @@ I hope you like the video
 Subsribe the channel
 
 Thank you :)
+
+Lets now setup SSL
+
+https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-22-04
+
+sudo nano /etc/apache2/sites-available/dmdailytricks.com.conf
+
+Thanks for watching the video :)
