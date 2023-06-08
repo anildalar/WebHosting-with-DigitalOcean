@@ -132,3 +132,20 @@ https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s
 sudo nano /etc/apache2/sites-available/dmdailytricks.com.conf
 
 Thanks for watching the video :)
+
+Now lets check if the site is pointed to new server or not
+
+It is not pointing to new server 64.227.153.83
+
+Lets check the wordpress site on
+
+https://dmdailytricks.com
+
+Its seams that website is working..
+
+But route is not working let me show here
+
+This is an apache webserver issue
+We need to fix it
+
+Let log into the server again
